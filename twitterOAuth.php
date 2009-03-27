@@ -13,8 +13,8 @@ require_once('OAuth.php');
  */
 
 session_start();
-$consumer_key = 'vItOrIwZLWUFT4AT2bA2aA';
-$consumer_secret = 't78HamYdjAdYmwh73oJ5qmWyz19Q7sPTgld6IpCQ4Qo';
+$consumer_key = '';
+$consumer_secret = '';
 $content = NULL;
 $state = $_SESSION['oauth_state'];
 $session_token = $_SESSION['oauth_request_token'];
